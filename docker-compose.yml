@@ -4,7 +4,7 @@ services:
     spectra-parser-service:
         restart: always
         container_name: spectra-file-parser
-        image: docker.your-company.com/sds/spectra-file-parser:latest
+        image: leanda/spectra-file-parser:latest
         environment:
         - TZ=EST
         - OSDR_LOG_FOLDER=/logs
