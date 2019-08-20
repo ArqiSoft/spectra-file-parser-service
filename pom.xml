@@ -95,6 +95,12 @@
             <artifactId>messaging</artifactId>
             <version>1.1</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.9</version>
+            <type>jar</type>
+        </dependency>
     </dependencies>
 
 
@@ -139,9 +145,14 @@
             <url>${nexus.release.url}</url>
         </repository>
         <repository>
-			<id>jitpack.io</id>
-			<url>https://jitpack.io</url>
-		</repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+        <repository>
+            <id>loci</id>
+            <name>Loci Maven Repository</name>
+            <url>http://dev.loci.wisc.edu/maven2/releases/</url>
+        </repository>
     </repositories>
 
     <pluginRepositories>
