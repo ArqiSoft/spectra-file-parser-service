@@ -139,11 +139,16 @@
         <repository>
             <id>spring-milestones</id>
             <url>https://repo.spring.io/milestone</url>
-        </repository>
+        </repository>       
         <repository>
             <id>nexus</id>
             <url>${nexus.release.url}</url>
         </repository>
+        <repository>
+            <id>Atlassian 3rd-P Old Repository </id>
+            <url>https://maven.atlassian.com/3rdparty/</url>
+        </repository>
+        
         <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
