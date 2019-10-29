@@ -1,5 +1,7 @@
 # Spectra File Parser Service
 
+[![Build Status](https://travis-ci.org/ArqiSoft/spectra-file-parser-service.svg?branch=master)](https://travis-ci.org/ArqiSoft/spectra-file-parser-service)
+
 ## System Requirements
 
 Java 1.8, Maven 3.x
